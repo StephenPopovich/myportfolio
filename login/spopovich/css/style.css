@@ -1005,7 +1005,7 @@ text-align: center;
 
 /*  Design Page */
 body.page-template-design{
-background: url("/wp-content/uploads/2023/02/designer-background.png") no-repeat center center fixed;
+background: url("/wp-content/uploads/2023/02/design-background-scaled.jpg") no-repeat center center fixed;
 -webkit-background-size: cover; /* For WebKit*/
 -moz-background-size: cover;    /* Mozilla*/
 -o-background-size: cover;      /* Opera*/
