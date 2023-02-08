@@ -377,12 +377,7 @@
         opacity: 1;
       }
     }
-    div#operating-systems{
-      margin-left: auto;
-      margin-right: auto;
-      display: table;
-      margin-top: -6%;
-    }
+
     div.proficient{
         background: rgba(255,255,255, 0.7);
         border-radius: 6px;
@@ -1680,12 +1675,7 @@
            opacity: 1;
          }
        }
-       div#operating-systems{
-         margin-left: auto;
-         margin-right: auto;
-         display: table;
-         margin-top: -6%;
-       }
+
        div.proficient{
            background: rgba(255,255,255, 0.7);
            border-radius: 6px;
@@ -1723,7 +1713,7 @@
            border-radius: 6px;
            margin-top: 1%;
            padding: 1%;
-           height: 550px;
+           height: 700px;
 
          }
          strong.project-description {
@@ -2977,12 +2967,7 @@ and (max-device-width : 481px) {
         opacity: 1;
       }
     }
-    div#operating-systems{
-      margin-left: auto;
-      margin-right: auto;
-      display: table;
-      margin-top: -6%;
-    }
+
       div.proficient{
         background: rgba(255,255,255, 0.7);
         border-radius: 6px;
@@ -4236,12 +4221,7 @@ and (max-device-width : 481px) {
            opacity: 1;
          }
        }
-       div#operating-systems{
-         margin-left: auto;
-         margin-right: auto;
-         display: table;
-         margin-top: -6%;
-       }
+
          div.proficient{
            background: rgba(255,255,255, 0.7);
            border-radius: 6px;
@@ -4951,8 +4931,7 @@ and (max-device-width : 481px) {
           -moz-box-shadow: 3px 3px 5px 6px black;
           box-shadow: 3px 3px 5px 6px black;
       }
-     /*
-     RESUME PAGE*/
+     /* RESUME PAGE*/
      div.my-resume {
          padding: 2.2px;
          margin-top: 2em;
