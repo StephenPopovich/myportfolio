@@ -1066,6 +1066,15 @@
    }
   /*
   RESUME PAGE*/
+
+  .page-template-resume .col-sm-12{
+    width: 80.5% !important;
+  }
+  p.contact-info {
+      color: black;
+      line-break: anywhere !important;
+  }
+
   div.my-resume {
       padding: 5em;
       margin-top: 2em;
@@ -1074,6 +1083,14 @@
       margin-right: auto;
       border: 1.5px groove black;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .my-resume h1{
+    font-size: 30px;
+  }
+  .my-resume li {
+      font-size: 18px;
+      line-height: 1.2;
+      color: black !important;
   }
   h4.summary{
     text-align: center;
@@ -1217,14 +1234,13 @@
     -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
     box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
   }
-  h1.careertitle{
-     font-size: 1.2em;
-   }
 
-  h2.careertitle {
+
+  .careertitle {
     color: #1C75BC;
     font-size: 19px;
     line-height: 0px;
+    margin-bottom: 1em;
   }
   img#userpic {
     display: flex;
@@ -4931,7 +4947,8 @@ and (max-device-width : 481px) {
           -moz-box-shadow: 3px 3px 5px 6px black;
           box-shadow: 3px 3px 5px 6px black;
       }
-     /* RESUME PAGE*/
+     /*
+     RESUME PAGE*/
      div.my-resume {
          padding: 2.2px;
          margin-top: 2em;
