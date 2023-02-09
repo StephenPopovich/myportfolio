@@ -228,14 +228,11 @@ padding: .75em;
 }
 
 
-.site-title{
-display: none;
-}
 
 /* Navbar */
 .site-title{
   color: #00FFFF !important;
-  font-size: 1.4em;
+  font-size: 1em;
   text-align: center;
   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
