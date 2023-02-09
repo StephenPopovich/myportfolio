@@ -42,6 +42,10 @@
       color: #00FFFF !important;
       background: #00FFFF !important;
     }
+    #mega-menu-wrap-primary .mega-menu-toggle .mega-toggle-blocks-right{
+      background:  #00FFFF !important;
+    }
+
     .navbar-nav {
 
     }
