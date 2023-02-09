@@ -233,6 +233,13 @@ display: none;
 }
 
 /* Navbar */
+.site-title{
+  color: #00FFFF !important;
+  font-size: 1.4em;
+  text-align: center;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
 .mega-menu-item-13{
  border-top-left-radius: 20px;
  border-bottom-left-radius: 20px;
@@ -548,6 +555,9 @@ display: table;
 
 img.logos:hover{
 transform: scale(1.22);
+margin-left: auto;
+margin-right: auto;
+display: table;
 }
 
 #cf2 {
@@ -606,10 +616,12 @@ text-align: center;
 
 a#email{
 color: #337ab7;
+line-break: anywhere;
 }
 
 a#email:hover{
 color: #3B5998;
+line-break: anywhere;
 }
 
 .email{
