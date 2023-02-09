@@ -9,8 +9,16 @@ $(document).ready(function(){
           var image = div.querySelector("img");
               image.setAttribute("alt", "something");
   }
-
-console.log("testing!!!")
+  /*--------------------------------------------------------------
+    # Fade in elements
+  --------------------------------------------------------------*/
+   $("h1").fadeIn();
+   $("h2").fadeIn();
+   $("h3").fadeIn();
+   $("h4").fadeIn();
+   $("p").fadeIn();
+   $("a").fadeIn();
+   $("li").fadeIn();
 
 
   /*--------------------------------------------------------------
