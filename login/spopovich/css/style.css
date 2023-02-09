@@ -163,13 +163,11 @@ color: #ffffff;
 }
 
 .row {
-max-width: 100% !important;
-line-height: .91;
-padding: 0px !important;
+
 }
 
 h1.entry-title{
-display: none;
+display: none !important;
 }
 
 .mobile-only{
@@ -461,7 +459,6 @@ span.wrapper{
 border-color: green !Important;
 }
 
-
 .comfortable{
 text-align: center;
 color: gold !important;
@@ -533,6 +530,9 @@ img.tool-icon{
 transition: transform .3s; /* Animation */
 width: 145px;
 height: 145px;
+margin-left: auto;
+margin-right: auto;
+display: table;
 }
 
 img.tool-icon:hover{
@@ -541,6 +541,9 @@ transform: scale(1.22);
 
 img.logos{
 transition: transform .3s; /* Animation */
+margin-left: auto;
+margin-right: auto;
+display: table;
 }
 
 img.logos:hover{
