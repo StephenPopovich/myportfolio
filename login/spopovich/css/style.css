@@ -617,6 +617,16 @@ font-weight: 800;
 text-align: center;
 }
 
+#infocontent a {
+color: #337ab7;
+line-break: anywhere;
+}
+
+#infocontentl a:hover{
+color: #3B5998;
+line-break: anywhere;
+}
+
 a#email{
 color: #337ab7;
 line-break: anywhere;
