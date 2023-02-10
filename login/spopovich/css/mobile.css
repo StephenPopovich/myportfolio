@@ -44,7 +44,15 @@
     }
     #mega-menu-wrap-primary .mega-menu-toggle .mega-toggle-blocks-right{
       background:  #00FFFF !important;
+      border: 6px groove #3B5998 !important;
     }
+   #mega-menu-wrap-primary .mega-menu-toggle + #mega-menu-primary{
+        background:  #00FFFF !important;
+        border: 6px groove #3B5998 !important;
+   }
+   #mega-menu-wrap-primary #mega-menu-primary li.mega-menu-item.mega-toggle-on > ul.mega-sub-menu{
+       background:  #00FFFF !important;
+   }
 
     .navbar-nav {
 
@@ -1069,7 +1077,7 @@
        box-shadow: 3px 3px 5px 6px black;
    }
   /*
-  RESUME PAGE*/
+  Resume Page*/
 
   .page-template-resume .col-sm-12{
     width: 80.5% !important;
@@ -1272,7 +1280,7 @@
     p.company-name{
       color: black;
     }
-        /*  DESIGN PAGE*/
+        /*  Design Page*/
         .page-template-design .col-sm-12{
           width: 57% !important;
         }
@@ -2411,7 +2419,7 @@
           box-shadow: 3px 3px 5px 6px black;
       }
      /*
-     RESUME PAGE*/
+     Resume Page*/
      div.my-resume {
          padding: 4em;
          margin-top: 2em;
@@ -2604,7 +2612,7 @@
       p.company-name{
         color: black;
       }
-      /*  DESIGN PAGE*/
+      /*  Design Page*/
       img.main-design-img {
           width: 100%;
           border: 3px groove #25b7c4 !important;
@@ -3688,7 +3696,7 @@ and (max-device-width : 481px) {
 
   }
   /*
-  RESUME PAGE*/
+  Resume Page*/
   div.my-resume {
       padding: 2em;
       margin-top: 2em;
@@ -3864,7 +3872,7 @@ and (max-device-width : 481px) {
       margin-bottom: 4%;
      }
 
-     /* Design PAGE*/
+     /* Design Page*/
      img.main-design-img {
          width: inherit;
          border: 3px groove #25b7c4 !important;
@@ -4958,7 +4966,7 @@ and (max-device-width : 481px) {
           box-shadow: 3px 3px 5px 6px black;
       }
      /*
-     RESUME PAGE*/
+     Resume Page*/
      div.my-resume {
          padding: 2.2px;
          margin-top: 2em;
@@ -5011,7 +5019,7 @@ and (max-device-width : 481px) {
           margin-top: 2.15%;
           margin-bottom: 4%;
       }
-      /*  DESIGN PAGE*/
+      /*  Design Page*/
       img.main-design-img {
           width: inherit;
           border: 3px groove #25b7c4 !important;

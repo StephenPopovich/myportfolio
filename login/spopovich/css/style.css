@@ -60,7 +60,9 @@ border-top: 6px groove #3B5998 !important;
 .container{
 width: 100% !important;
 }
-
+.row>*{
+  width: inherit !important;
+}
 a{
 color: red;
 }
@@ -309,6 +311,10 @@ color: #000000;
 }
 
 /* Home Page */
+.info-text p{
+ line-height: 1.2em;
+}
+
 body.page-template-front-page{
 background: url("https://img.freepik.com/free-photo/smooth-dark-blue-with-black-vignette-studio-well-use-as-background-business-report-digital-website-template_1258-748.jpg") no-repeat center center fixed;
 -webkit-background-size: cover; /* For WebKit*/
