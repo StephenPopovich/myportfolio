@@ -1251,7 +1251,7 @@
   .careertitle {
     color: #1C75BC;
     font-size: 19px;
-    line-height: 0px;
+    line-height: 1em;
     margin-bottom: 1em;
   }
   img#userpic {
@@ -2585,7 +2585,8 @@
      h2.careertitle {
        color: #1C75BC;
        font-size: 19px;
-       line-height: 0px;
+       line-height: 1em;
+       margin-bottom: 1em;
      }
      img#userpic {
        display: flex;
@@ -3847,7 +3848,8 @@ and (max-device-width : 481px) {
   h2.careertitle {
     color: #1C75BC;
     font-size: 19px;
-    line-height: 0px;
+    line-height: 1em;
+    margin-bottom: 1em;
   }
   img#userpic {
     display: flex;
@@ -4992,7 +4994,8 @@ and (max-device-width : 481px) {
      h2.careertitle {
        color: #1C75BC;
        font-size: 19px;
-       line-height: 0px;
+       line-height: 1em;
+       margin-bottom: 1em;
      }
      img#userpic {
        display: flex;
