@@ -60,9 +60,7 @@ border-top: 6px groove #3B5998 !important;
 .container{
 width: 100% !important;
 }
-.row>*{
-  width: inherit !important;
-}
+
 a{
 color: red;
 }
