@@ -916,8 +916,8 @@ Resume Page*/
 width: 80.5% !important;
 }
 p.contact-info {
-color: black;
-line-break: anywhere !important;
+    color: black;
+    line-break: anywhere !important;
 }
 
 div.my-resume {
@@ -1608,7 +1608,7 @@ background: rgba(255,255,255, 0.7);
 border-radius: 6px;
 margin-top: 1%;
 padding: 1%;
-height: 400px;
+height: 540px;
 
 }
 strong.project-description {
@@ -1803,7 +1803,7 @@ cursor: pointer;
 }
 #map {
 margin-top: 2%;
-width: 100% !important;
+width:100% !important;
 height: 369px !important;
 }
 #education{
@@ -2291,6 +2291,11 @@ margin-right: auto;
 border: 1.5px groove black;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+p.contact-info {
+color: black;
+line-break: anywhere !important;
+}
+
 h4.summary{
 text-align: center;
 }
