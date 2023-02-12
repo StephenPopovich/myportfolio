@@ -1,4 +1,4 @@
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
 html,body {
 -webkit-background-size: cover; /* For WebKit*/
 -moz-background-size: cover;    /* Mozilla*/
@@ -913,7 +913,7 @@ box-shadow: 3px 3px 5px 6px black;
 Resume Page*/
 
 .page-template-resume .col-sm-12{
-width: 80.5% !important;
+width: 79% !important;
 }
 p.contact-info {
     color: black;
