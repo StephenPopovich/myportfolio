@@ -121,10 +121,10 @@ jQuery(document).ready(function($) {
 
 $('#target').teletype({
   text: [
-    'a developer',
-    'a manager',
-    'an engineer',
-    'a businessman'
+    'a developer.',
+    'a manager.',
+    'an engineer.',
+    'a businessman.'
   ]
 });
 
