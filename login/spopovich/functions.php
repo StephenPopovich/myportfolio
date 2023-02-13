@@ -301,15 +301,11 @@ if ( ! class_exists( 'wp_bootstrap_navwalker' )) {
     require_once(get_template_directory() . '/inc/wp_bootstrap_navwalker.php');
 }
 
-
-	// Linking custom JavaScript File
-	function my_theme_scripts_function() {
-
-	  wp_enqueue_script( 'myjavascript', get_template_directory_uri() . '/js/myjavascript.js');
-
+	/* Custom script with no dependencies, enqueued in the header */
+	add_action('wp_enqueue_scripts', 'tutsplus_enqueue_custom_js');
+	function tutsplus_enqueue_custom_js() {
+	    wp_enqueue_script('custom', get_stylesheet_directory_uri().'/js/custom.js');
 	}
-
-	add_action('wp_enqueue_scripts','my_theme_scripts_function');
 
 
 	function wpcf7s_disable_mail2(){
