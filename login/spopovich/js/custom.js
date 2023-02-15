@@ -133,4 +133,23 @@ $('#cursor').teletype({
   delay: 0,
   pause: 500
 });
+
+const cursorGlow = document.querySelector(".cursor-glow");
+
+document.addEventListener('mousemove', e => {
+    const x = e.clientX;
+    const y = e.clientY;
+  	const hoveringElements = Array.from(document.querySelectorAll(':hover'));
+	if(hoveringElements.filter(element => element.classList.contains("featured")).length === 1){
+		const hoveringElement = hoveringElements.filter(element => element.classList.contains("featured"))[0];
+		cursorGlow.style.left = `${x - (cursorGlow.offsetWidth/2)}px`;
+		cursorGlow.style.top = `${y - (cursorGlow.offsetWidth/2)}px`;
+		hoveringElement.appendChild(cursorGlow);
+		cursorGlow.style.display = "initial";
+	}else {
+		cursorGlow.style.display = "none";
+	}
+})
+
+
 });

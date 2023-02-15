@@ -8,6 +8,7 @@
 
 get_header();
 ?>
+<div class="cursor-glow"></div>
 <div class="featured mobile-only"><!-- Put the Featured Image here -->
   <img src='/wp-content/uploads/2022/07/resume-feature-mobile.png' alt='' />
 </div>

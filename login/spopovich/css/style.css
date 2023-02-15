@@ -192,6 +192,16 @@ box-shadow: none;
 border: none !important;
 }
 
+.featured{
+  background:blue;
+  transistion:background 3s;
+  -webkit-transition:background 3s; /*safari/chrome*/
+  -moz-transition:background 3s;  /*firefox*/
+  -o-transition:background 3s;  /*opera*/
+}
+.featured:hover{
+  background:lightblue;
+}
 
 h1#title{
 text-align: right;
@@ -281,6 +291,21 @@ ul.mega-sub-menu{
 -moz-box-shadow: 4px 4px 10px -1px rgba(0,0,0,0.75);
 box-shadow: 4px 4px 10px -1px rgba(0,0,0,0.75);
 }
+
+/* Cursor Glow */
+.cursor-glow {
+	aspect-ratio:1/1;
+	width:200px;
+	background-color:rgba(255,255,255, .75);
+	position:absolute;
+	display:none;
+	z-index: 0;
+	overflow: hidden;
+	pointer-events: none;
+	border-radius: 50%;
+	filter:blur(30px);
+}
+
 
 /* Footer */
 footer{
