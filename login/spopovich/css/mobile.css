@@ -93,7 +93,7 @@ box-shadow: 0 19px 38px rgba(0,0,0,.3), 0 15px 12px rgba(0,0,0,.22);
 iframe.chi-intro{
 width: 100% !important;
 margin-bottom: 0%;
-
+height: 500px;
 }
 img#mypic {
 width: 100%;
@@ -123,6 +123,10 @@ text-align: center;
 
 }
 
+/* Home Page */
+#me{
+  width: 100%;
+}
 /* Type Writter Effect */
 
 .fakeButtons {
@@ -1589,10 +1593,7 @@ border-radius: 6px;
 margin-top: 7%;
 
 }
-.logos{
-height: 105px;
-width: 105px;
-}
+
 p.technology-name {
  font-weight: 800;
  line-height: 1.34em;
@@ -1619,13 +1620,24 @@ p.projects{
 }
 img.tool-icon{
  transition: transform .3s; /* Animation */
- width:75px;
- height: 75px;
- margin-left: -1%;
+ width:150px;
+ height: 150px;
+ margin-left: auto;
+ margin-right: auto;
+ display: table;
 }
 img.tool-icon:hover{
 transform: scale(1.22);
 }
+
+.logos{
+height: 150px;
+width: 150px;
+margin-left: auto;
+margin-right: auto;
+display: table;
+}
+
 img.language-icon{
     height: 225px;
     width: 225px;
