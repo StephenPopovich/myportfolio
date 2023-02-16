@@ -375,8 +375,9 @@ box-shadow: 0 19px 38px rgba(0,0,0,.3), 0 15px 12px rgba(0,0,0,.22);
 }
 
 iframe.chi-intro{
-margin-bottom: 0%;
-width: 100%;
+  margin-bottom: 0%;
+  width: 100% !important;
+  height: 800px;
 }
 
 img#mypic {
@@ -396,6 +397,7 @@ background: rgba(255,255,255, 0.7);
 padding: 1%;
 border-radius: 6px;
 border: 6px groove #3B5998 !important;
+margin-bottom: 2em;
 }
 
 #experience-section{
