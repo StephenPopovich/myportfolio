@@ -2925,16 +2925,15 @@ p.projects{
 }
 img.tool-icon{
 transition: transform .3s; /* Animation */
-width: 75px;
-height: 75px;
-margin-left: -1%;
+width: 150px;
+height: 150px;
 }
 img.tool-icon:hover{
 transform: scale(1.22);
 }
 img.language-icon{
- height: 80px;
- width: 80px;
+ height: 150px;
+ width: 150px;
 }
 img.language-icon:hover{
 transform: scale(1.22);
@@ -4168,16 +4167,16 @@ p.projects{
 }
 img.tool-icon{
  transition: transform .3s; /* Animation */
- width: 45px;
- height: 45px;
- margin-left: -1%;
+ width: 150px;
+ height: 150px;
+
 }
 img.tool-icon:hover{
 transform: scale(1.22);
 }
 img.language-icon{
-    height: 80px;
-    width: 80px;
+    height: 150px;
+    width: 150px;
 }
 img.language-icon:hover{
 transform: scale(1.22);
