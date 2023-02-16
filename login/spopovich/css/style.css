@@ -262,7 +262,7 @@ padding: .75em;
 }
 
 #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item{
-background: #8db9d4 !important;
+
 }
 
 #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link{
@@ -282,7 +282,6 @@ cursor: url(https://spopovich.com/wp-content/uploads/2023/02/red-future-cursor.p
 
 
 #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item a.mega-menu-link{
-background: #8db9d4 !important;
 color: white !important;
 font-size: 20px !important;
 cursor: url(https://spopovich.com/wp-content/uploads/2023/02/red-future-cursor.png), auto;
@@ -976,6 +975,14 @@ hr#location{
 width: 191px;
 margin-bottom: .8%;
 margin-top: .1%;
+}
+
+.user-area{
+  display: flex;
+}
+
+.id{
+  margin-right: 10px;
 }
 
 img.icon{
