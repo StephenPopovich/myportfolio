@@ -168,7 +168,7 @@ color: #ffffff;
 
 }
 
-h1.entry-title{
+.entry-title{
 display: none !important;
 }
 
@@ -400,6 +400,22 @@ border: 6px groove #3B5998 !important;
 margin-bottom: 2em;
 }
 
+p#infocontent{
+color: black;
+font-weight: 800;
+text-align: center;
+}
+
+#infocontent a {
+color: #337ab7;
+line-break: anywhere;
+}
+
+#infocontentl a:hover{
+color: #3B5998;
+line-break: anywhere;
+}
+
 #experience-section{
 text-align: center !important;
 }
@@ -489,7 +505,7 @@ color: #55ff55;
 color: #55ff55;
 }
 
-h1#type-writter{
+#type-writter{
 color: #00FFFF !important;
 margin-top: 2%;
 font-size: 4.2em;
@@ -553,7 +569,7 @@ height: 475px;
 border: 6px groove #3B5998 !important;
 }
 
-h3.no-video{
+.no-video{
 text-align: center;
 color: white;
 text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
@@ -647,18 +663,13 @@ div#meslide{
 
 }
 
-p#infocontent{
-color: black;
-font-weight: 800;
-text-align: center;
-}
 
-#infocontent a {
+a#cell{
 color: #337ab7;
 line-break: anywhere;
 }
 
-#infocontentl a:hover{
+a#cell:hover{
 color: #3B5998;
 line-break: anywhere;
 }
@@ -673,10 +684,6 @@ color: #3B5998;
 line-break: anywhere;
 }
 
-.email{
-font-size: 13px;
-color: green;
-}
 
 #responsive {
 overflow: hidden;
@@ -750,7 +757,7 @@ text-align: center;
 text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
 
-h3.info-text{
+.info-text{
 color: #00FFFF !important;
 font-size: 1.25em;
 text-align: center !important;
@@ -1118,7 +1125,7 @@ border: 6px groove #3B5998 !important;
 margin-top: 3%;
 }
 
-h3.deisgn-titles{
+.deisgn-titles{
 text-align: center;
 font-style: oblique;
 color: #3B5998;
