@@ -35,7 +35,7 @@ jQuery(document).ready(function($) {
  /*--------------------------------------------------------------
  # Add class to menu options
  --------------------------------------------------------------*/
-  $('.mega-menu-link').addClass('wobble-horizontal');
+  $('a:mega-menu-link').addClass('wobble-horizontal');
 
   /*--------------------------------------------------------------
   # Accessibility Codes

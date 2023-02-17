@@ -257,7 +257,7 @@ background: rgba(255,255,255, 0.7);
 border-radius: 6px;
 margin-top: 1%;
 padding: 1%;
-height: 450px;
+height: auto;
 
 }
 strong.project-description {
@@ -1288,8 +1288,8 @@ transform: scale(1.22);
 }
 
 .logos{
-height: 150px;
-width: 150px;
+height: 55px;
+width: 55px;
 margin-left: auto;
 margin-right: auto;
 display: table;
@@ -2215,8 +2215,8 @@ margin-top: 7%;
 
 }
 .logos{
-height: 150px;
-width: 150px;
+height: 55px;
+width: 55px;
 }
 p.technology-name {
 font-weight: 800;
@@ -2231,7 +2231,7 @@ background: rgba(255,255,255, 0.7);
 border-radius: 6px;
 margin-top: 1%;
 padding: 1%;
-height: 450px;
+height: auto;
 
 }
 strong.project-description {
@@ -3311,8 +3311,8 @@ text-shadow: 2px 2px 4px #000000;
 margin-bottom: 2%;
 }
 .logos{
-height: 150px;
-width: 150px;
+height: 55px;
+width: 55px;
 }
 p.technology-name {
 font-weight: 800;
