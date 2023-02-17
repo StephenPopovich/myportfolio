@@ -244,6 +244,11 @@ padding: .75em;
 
 
 /* Navbar */
+
+.navbar-logo{
+  height: 55px;
+  width: 55px;
+}
 .site-title{
   color: #00FFFF !important;
   font-size: 1em;
@@ -280,6 +285,10 @@ text-decoration: underline !important;
 cursor: url(https://spopovich.com/wp-content/uploads/2023/02/red-future-cursor.png), auto;
 }
 
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-flyout ul.mega-sub-menu{
+background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(141,185,212,1) 50%);
+}
 
 #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item a.mega-menu-link{
 color: white !important;
