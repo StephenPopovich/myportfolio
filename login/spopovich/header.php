@@ -24,14 +24,16 @@
 <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
 <meta property="og:image" content="/wp-content/uploads/2022/06/S.gif" />
 <link rel="icon" type="image/png" href="/wp-content/uploads/2022/06/S.gif" />
-<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/css/style.css' ?>">
-<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/css/mobile.css' ?>">
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(). '/css/style.css' ?>">
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(). '/css/mobile.css' ?>">
 <!-- Get the JQuery library
 Jquery 1 & 2 are the same except JQuery 2 doesn't
 support IE 6, 7, and 8 -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 
+<!-- Fontawesome -->
+<script src="https://kit.fontawesome.com/0f9a87ebb9.js" crossorigin="anonymous"></script>
 
 <!-- Chrome, Firefox OS and Opera -->
 <meta name="theme-color" content="#0d5797">
@@ -139,4 +141,5 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <?php endif; ?>
 	<div id="content" class="site-content">
 		<div class="page-content">
+			<!-- Return to Top -->
                 <?php endif; ?>
