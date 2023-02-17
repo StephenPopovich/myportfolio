@@ -32,7 +32,10 @@ jQuery(document).ready(function($) {
   $('a:external').addClass('external');
  $(".external").attr("target","_blank");
 
-
+ /*--------------------------------------------------------------
+ # Add class to menu options
+ --------------------------------------------------------------*/
+  $('.mega-menu-link').addClass('wobble-horizontal');
 
   /*--------------------------------------------------------------
   # Accessibility Codes
