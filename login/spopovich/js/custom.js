@@ -1,17 +1,5 @@
 jQuery(document).ready(function($) {
-  console.log("testing2");
-
-  /*--------------------------------------------------------------
-    # Fade in elements
-  --------------------------------------------------------------*/
-   $("h1").fadeIn(500);
-   $("h2").fadeIn(500);
-   $("h3").fadeIn(500);
-   $("h4").fadeIn(500);
-   $("p").fadeIn(500);
-   $("a").fadeIn(500);
-   $("li").fadeIn(500);
-
+  console.log("Hello and welcome to my portfolio. Thank you for taking the time to view it and consider me for your job position. I hope this messages helps show you I leave no stone unturned.");
 
   /*--------------------------------------------------------------
   # Removed Powered
@@ -36,7 +24,7 @@ jQuery(document).ready(function($) {
  # Add class to menu options
  --------------------------------------------------------------*/
   $('a:mega-menu-link').addClass('wobble-horizontal');
-
+  $('a.mega-menu-link').addClass('wobble-horizontal');
   /*--------------------------------------------------------------
   # Accessibility Codes
   --------------------------------------------------------------*/
@@ -154,5 +142,37 @@ document.addEventListener('mousemove', e => {
 	}
 })
 
+/*--------------------------------------------------------------
+# Counter Animator
+--------------------------------------------------------------*/
 
+$(window).scroll(testScroll);
+var viewed = false;
+
+function isScrolledIntoView(elem) {
+    var docViewTop = $(window).scrollTop();
+    var docViewBottom = docViewTop + $(window).height();
+
+    var elemTop = $(elem).offset().top;
+    var elemBottom = elemTop + $(elem).height();
+
+    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+}
+
+function testScroll() {
+  if (isScrolledIntoView($(".counting")) && !viewed) {
+      viewed = true;
+      $('.count').each(function () {
+      $(this).prop('Counter',0).animate({
+          Counter: $(this).text()
+      }, {
+          duration: 4000,
+          easing: 'swing',
+          step: function (now) {
+              $(this).text(Math.ceil(now));
+          }
+      });
+    });
+  }
+}
 });
