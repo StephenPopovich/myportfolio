@@ -360,7 +360,7 @@ color: #ffffff;
 }
 
 body.page-template-front-page{
-background: url("/wp-content/uploads/2023/02/black-background-2.png") no-repeat center center fixed;
+background: url("/wp-content/uploads/2023/02/black-background-2-2.png") no-repeat center center fixed;
 -webkit-background-size: cover; /* For WebKit*/
 -moz-background-size: cover;    /* Mozilla*/
 -o-background-size: cover;      /* Opera*/
@@ -821,7 +821,7 @@ text-align: center;
 vertical-align: middle;
 }
 
-#minititle{
+.minititle{
 margin-left: auto;
 margin-right: auto;
 display: table;
@@ -832,7 +832,7 @@ font-weight: 800;
 text-shadow: 2px 2px 4px #000000;;
 }
 
-#minititle:hover{
+.minititle:hover{
 margin-left: auto;
 margin-right: auto;
 display: table;
@@ -841,6 +841,18 @@ font-size: 4.2em;
 font-weight: 800;
 color: #ffffff !important;
 text-shadow: 2px 2px 4px #000000;
+}
+
+.projects-title{
+  background: #000000;
+  padding: 1em;
+  margin-bottom: 2%;
+}
+
+.education-title{
+  background: #000000;
+  padding: 1em;
+  margin-bottom: 2%;
 }
 
 #biodiv{
@@ -949,8 +961,12 @@ margin-right: auto;
 display: table;
 font-weight: 800;
 font-size: 2em !important;
-text-shadow: 2px 2px 4px #000000;;
+text-shadow: 2px 2px 4px #000000;
+background: #000000;
+padding: 1em;
 margin-bottom: 2%;
+border-radius: 30px;
+
 }
 
 .description {
@@ -1008,7 +1024,7 @@ text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 bl
 
 /*  Resume Page */
 body.page-template-resume{
-background: url("/wp-content/uploads/2023/02/black-background-2.png") no-repeat center center fixed;
+background: url("/wp-content/uploads/2023/02/black-background-2-2.png") no-repeat center center fixed;
 -webkit-background-size: cover; /* For WebKit*/
 -moz-background-size: cover;    /* Mozilla*/
 -o-background-size: cover;      /* Opera*/
@@ -1238,7 +1254,7 @@ text-align: center;
 
 /*  Design Page */
 body.page-template-design{
-background: url("/wp-content/uploads/2023/02/black-background-2.png") no-repeat center center fixed;
+background: url("/wp-content/uploads/2023/02/black-background-2-2.png") no-repeat center center fixed;
 -webkit-background-size: cover; /* For WebKit*/
 -moz-background-size: cover;    /* Mozilla*/
 -o-background-size: cover;      /* Opera*/
