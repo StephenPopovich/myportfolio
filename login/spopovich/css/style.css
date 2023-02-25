@@ -360,7 +360,7 @@ color: #ffffff;
 }
 
 body.page-template-front-page{
-background: url("/wp-content/uploads/2023/02/black-background.png") no-repeat center center fixed;
+background: url("/wp-content/uploads/2023/02/black-background-2.png") no-repeat center center fixed;
 -webkit-background-size: cover; /* For WebKit*/
 -moz-background-size: cover;    /* Mozilla*/
 -o-background-size: cover;      /* Opera*/
@@ -1008,7 +1008,7 @@ text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 bl
 
 /*  Resume Page */
 body.page-template-resume{
-background: url("/wp-content/uploads/2023/02/black-background.png") no-repeat center center fixed;
+background: url("/wp-content/uploads/2023/02/black-background-2.png") no-repeat center center fixed;
 -webkit-background-size: cover; /* For WebKit*/
 -moz-background-size: cover;    /* Mozilla*/
 -o-background-size: cover;      /* Opera*/
@@ -1238,7 +1238,7 @@ text-align: center;
 
 /*  Design Page */
 body.page-template-design{
-background: url("/wp-content/uploads/2023/02/black-background.png") no-repeat center center fixed;
+background: url("/wp-content/uploads/2023/02/black-background-2.png") no-repeat center center fixed;
 -webkit-background-size: cover; /* For WebKit*/
 -moz-background-size: cover;    /* Mozilla*/
 -o-background-size: cover;      /* Opera*/
