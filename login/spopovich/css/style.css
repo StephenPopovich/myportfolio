@@ -286,9 +286,11 @@ cursor: url(https://spopovich.com/wp-content/uploads/2023/02/red-future-cursor.p
 }
 
 #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-flyout ul.mega-sub-menu{
-background: rgb(255,255,255);
-background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(141,185,212,1) 50%) !important;
+background: #3B5998;
 border: 6px groove #3B5998 !important;
+-webkit-box-shadow: 4px 4px 10px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 4px 10px -1px rgba(0,0,0,0.75);
+box-shadow: 4px 4px 10px -1px rgba(0,0,0,0.75);
 }
 
 #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item a.mega-menu-link{
